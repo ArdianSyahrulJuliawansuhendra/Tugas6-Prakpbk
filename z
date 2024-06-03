@@ -1,0 +1,6 @@
+npm install axios  
+npm install –g json-server
+Get-ExecutionPolicy 
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+json-server db.json 
+json-server --watch db.json --port 3000
